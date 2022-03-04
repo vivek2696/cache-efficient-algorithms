@@ -1,5 +1,7 @@
 # optimal-cache-oblivious-algorithm
-This repo is under construction
+
+This repo is under construction.
+
 Increasing sequential performance of basic matrix transpose and matrix multiply algorithm.
 
 
