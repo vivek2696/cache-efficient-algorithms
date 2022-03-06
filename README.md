@@ -1,4 +1,4 @@
-# optimal-cache-oblivious-algorithm
+# cache-efficient-algorithm
 
 This repo is under construction.
 
