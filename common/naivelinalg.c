@@ -12,13 +12,15 @@ bool matrix_create(matrix *target, const int N, const int M){
     }
 
     // the matrix need to be alligned on a cache line boundry
-    int memalign_result = posix_memalign(
-        (void**)(&(target->data)),
-        NAIVE_LINALG_ALIGNMENT,
-        sizeof(matrix_data_t)*N*M
-    );
+    // int memalign_result = posix_memalign(
+    //     (void**)(&(target->data)),
+    //     NAIVE_LINALG_ALIGNMENT,
+    //     sizeof(matrix_data_t)*N*M
+    // );
 
-    if(0 != memalign_result || NULL == memalign_result){
+    target->data = (matrix_data_t*)calloc(sizeof(matrix_data_t), N*M);
+
+    if(target->data == NULL){
         target->data = NULL;
         target->N = 0;
         target->M = 0;
