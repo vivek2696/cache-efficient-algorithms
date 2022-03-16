@@ -63,7 +63,7 @@ bool copy_matrix(matrix *target, const matrix * source){
 }
 
 bool matrix_equality(const matrix *lhs, const matrix *rhs, const double epsilon){
-    if(lhs->N != rhs->N || lhs->M != lhs->M){
+    if(lhs->N != rhs->N || lhs->M != rhs->M){
         return false;
     }
     int END = lhs->N * lhs->M; //Scan as 1D array
