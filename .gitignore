@@ -34,3 +34,6 @@
 # VScode
 .VScode/*
 .vscode/*
+
+.DS_Store
+main
