@@ -4,12 +4,12 @@ RM	= rm -f
 
 default:  all
 
-all: compile run
+all: link compile
 
-compile: main.cpp
+link: main.cpp
 	$(CC) $(CFLAGS) -c main.cpp transpose.cpp ../common/util.c ../common/basic.c ../common/naivelinalg.c
 
-run: main.o
+compile: main.o
 	$(CC) $(CFLAGS) -o  main main.o transpose.o util.o basic.o naivelinalg.o
 
 clean:

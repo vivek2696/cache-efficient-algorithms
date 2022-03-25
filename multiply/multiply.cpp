@@ -1,5 +1,5 @@
 #include "multiply.h"
-#include "util.h"
+#include "../common/util.h"
 
 
 void multiply_tiled(double* const A, double* const B, double* const C, int const N, const int tile_size) {

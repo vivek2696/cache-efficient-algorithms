@@ -1,7 +1,7 @@
 #ifndef MULTIPLY_H
 #define MULTIPLY_H
 
-#include "util.h"
+#include "../common/util.h"
 
 /**
  * Tiled version of matrix multiplication that multiplies two NxN matrices
