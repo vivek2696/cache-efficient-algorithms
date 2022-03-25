@@ -7,7 +7,7 @@ bool matrix_create(matrix *target, const int N, const int M){
     target->N = N;
     target->M = M;
 
-    if(N==0 | M==0){
+    if((N==0) | (M==0)){
         target->data = NULL;
     }
 
