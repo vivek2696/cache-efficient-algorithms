@@ -6,12 +6,12 @@ The goal of this repository is to show how memory access patterns can affect the
 
 1. matrix transpose
     - The sample run of tranpose code with matrix (2048X2048):
-    - ![tranpose_sample_run](https://github.com/Vivek2696/cache-efficient-algorithms/screenshots/tranpose.png)
+    - ![tranpose_sample_run](https://github.com/Vivek2696/cache-efficient-algorithms/blob/master/screenshots/transpose.PNG)
 2. matrix multiply
     - The sample run of multiply code with matrix (2048X2048):
-    - ![multiply_sample_run](https://github.com/Vivek2696/cache-efficient-algorithms/screenshots/matrix.png)
+    - ![multiply_sample_run](https://github.com/Vivek2696/cache-efficient-algorithms/blob/master/screenshots/multiply.PNG)
 3. OpenMP parallel for loop demo:
-    - ![openmp_sample_run](https://github.com/Vivek2696/cache-efficient-algorithms/screenshots/openmp.png)
+    - ![openmp_sample_run](https://github.com/Vivek2696/cache-efficient-algorithms/blob/master/screenshots/openmp.PNG)
 
 The performance increase can be seen from above sample runs. The tiled algorithm for both transpose and multiply is giving almost three fold performance. 
 
